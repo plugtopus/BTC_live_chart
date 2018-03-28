@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+</head>
+
+<body style="width:800px; padding:10px;">
+<div>
+    <div class="btn-group" role="currency" style="margin-left:5px; float:left;margin-bottom:10px;">
+        <button type="button" id="BTC" class="btn btn-primary"><b>Биткоин Bitcoin(BTC) - график цен </b><span class="price"></span></button>
+    </div>
+
+    <div class="btn-group" role="timeline" style="margin-right:5px; float:right;">
+        <button type="button" id="hour" class="btn btn-info">Час</button>
+        <button type="button" id="day" class="btn btn-default">24 часа</button>
+        <button type="button" id="week" class="btn btn-default">Неделя</button>
+        <button type="button" id="month" class="btn btn-default">Месяц</button>
+        <button type="button" id="year" class="btn btn-default">Год</button>
+        <button type="button" id="all" class="btn btn-default">ВСЕ</button>
+    </div>
+</div>
+<canvas id="container" style="width: 100%; height: 400px;display:none;"></canvas>
+
+<script src="../core/jquery-3.1.1.min.js"></script>
+<script src="../core/Chart.min.js"></script>
+<script src="../core/popup.js"></script>
+</body>
+
+</html>
