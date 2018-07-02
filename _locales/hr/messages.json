@@ -1,0 +1,14 @@
+﻿{
+   "desc": {
+      "message": "This extension shows current price and price change graph for BTC Bitcoin Bitcoin"
+   },
+   "name": {
+      "message": "BTC Bitcoin - price graph"
+   },
+   "shortname": {
+      "message": "BTC Bitcoin - price graph"
+   },
+   "title": {
+      "message": "BTC Bitcoin - price graph"
+   }
+}

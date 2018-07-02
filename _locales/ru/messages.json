@@ -4,5 +4,11 @@
    },
    "name": {
       "message": "BTC Bitcoin Биткоин - график цен"
+   },
+   "shortname": {
+      "message": "BTC Bitcoin Биткоин - график цен"
+   },
+   "title": {
+      "message": "BTC Bitcoin Биткоин - график цен"
    }
 }
